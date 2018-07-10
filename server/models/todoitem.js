@@ -9,6 +9,10 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.BOOLEAN,
       defaultValue: false,
     },
+    avatar: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    }
   });
 
   TodoItem.associate = (models) => {

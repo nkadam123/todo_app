@@ -23,6 +23,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE,
       },
+      avatar: {
+        allowNull: true,
+        type: Sequelize.STRING,
+      },
       todoId: {
         type: Sequelize.INTEGER,
         onDelete: 'CASCADE',
